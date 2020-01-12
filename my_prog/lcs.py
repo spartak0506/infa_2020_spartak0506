@@ -11,7 +11,7 @@ def lcs(A,B):
                 F[i][j] = max(F[i-1][j], F[i][j-1])
     return F[-1][-1]
 
-A = range(70)
+A = range(60)
 B = range(80)
 
 print(lcs(A,B))
